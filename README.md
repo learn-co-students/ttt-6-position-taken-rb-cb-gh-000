@@ -23,7 +23,7 @@ The underlying goal of this method is to check, or validate, user input against 
 
 The concept of validations is a common one, and you're likely to encounter it in other programming scenarios.
 
-### A Note on Methods Ending in a `?`
+### A Note on Methods Ending in a `?` 
 
 Conventionally, we name methods that return either `true` or `false` by adding a literal question mark to the end of the name. So, if our method is meant to answer the question: "is this position taken?", we will phrase our method definition just like that, `position_taken?`. This reflects one of the most appealing features of Ruby, its readability. Ruby lends itself especially well to elegant and sensical statements, which offers advantages to beginner programmers.
 
@@ -109,4 +109,3 @@ Failures:
 It looks like our method should also account for the use of `nil` to represent an empty or unoccupied space on our tic tac toe board. Use the `||` operator to account for this edge case. Our `position_taken?` method should return false if the submitted index is equal to *either* an empty string, `" "`, *or* an empty string `""`, *or* `nil`.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ttt-6-position-taken-rb' title='Position Taken in Tic Tac Toe'>Position Taken in Tic Tac Toe</a> on Learn.co and start learning to code for free.</p>
-

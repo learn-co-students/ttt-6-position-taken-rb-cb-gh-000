@@ -2,11 +2,11 @@
 def position_taken?(board,index)
   
 if(board[index]==" " || board[index]=="")
-  return FALSE
+  return FALSE #not taken
 elsif(board[index]=="X" || board[index]=="O")
-return TRUE
+return TRUE#takes
 else
-  return FALSE
+  return FALSE #if array is nil 
 end
 
 end

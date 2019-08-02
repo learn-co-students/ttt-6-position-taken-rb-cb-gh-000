@@ -1,5 +1,5 @@
 # code your #position_taken? method here!
 
 def position_taken?(board, index)
-  return index == " " || (board[index] == "X" || board[index] == "O")
+  return index == " " || ["X", "O"].include?(board[index])
 end
